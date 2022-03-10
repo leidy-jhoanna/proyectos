@@ -1,0 +1,232 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+
+*{
+  font-family: 'Baloo 2', cursive;
+}
+
+body {
+  background: rgb(114, 120, 146);
+  background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+  height: 100vh;
+
+  /* background: rgb(30,186,212);
+     background: radial-gradient(circle, rgba(30,186,212,1) 30%, rgba(29,253,142,1) 60%, rgba(207,44,248,1) 100%); */
+
+  /* background: rgb(12,18,237);
+     background: radial-gradient(circle, rgba(12,18,237,1) 0%, rgba(8,175,241,1) 100%);*/
+
+  /* background: rgb(15,250,253);
+     background: linear-gradient(0deg, rgba(15,250,253,0.7351643281824449) 0%, rgba(6,27,190,1) 100%);*/
+}
+
+header{
+  text-align: center;
+}
+
+main{
+  display: flex;
+  justify-content: center;
+}
+
+.botonP {
+  cursor: pointer;
+  padding: 15px 25px;
+  background-color: #2b80e2;
+  color: #000000;
+  margin: 15px 25px;
+  font-size: 15px;
+  font-weight: 600;
+  transition: all ease-in-out 0.35s;
+  border-radius: 1em;
+  border: none;
+}
+
+.botonP:hover{
+  background: radial-gradient(circle, rgba(116,203,247,1) 0%, rgba(27,18,127,1) 100%);
+  color: #040608;
+}
+
+.image2:hover{
+  height: 500px;
+}
+
+img{
+  object-fit: contain;
+  height: 500px;
+}
+
+.imagen1{
+  cursor: pointer;
+  transition: all ease-out 0.45s;
+  border: #000000 2px solid;
+  border-radius: 15px;
+}
+
+.imagen1:hover{
+  opacity: 70%;
+  height: 500px;
+}
+
+.seccion_contador{
+  text-align: center;
+  width: 100%;
+  margin: 45px 0;
+}
+
+.span{
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  border-bottom: 2px solid #950524;
+}
+
+
+.boton_contador{
+  border-radius: 1em;
+  color: #000;
+  background: rgb(116,203,247);
+  background: radial-gradient(circle, rgba(116,203,247,1) 0%, rgba(27,18,127,1) 100%);
+  font-weight: 500;
+  font-size: 20px;
+  padding: 15px 25px;
+  margin: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.boton_contador:hover{
+  background: radial-gradient(circle, rgba(116,203,247,1) 0%, rgba(27,18,127,1) 100%);
+  color: #040608;
+  transition: all ease-out 0.45s;
+}
+
+.about_us{
+  text-align: center;
+  padding: 0% 8%;
+}
+
+.page_not{
+  text-align: center;
+}
+
+.page_not p{
+  font-family: 'Baloo 2', cursive;
+  font-size: 60px;
+  font-weight: 500;
+
+}
+
+footer{
+  text-align: center;
+}
+
+.botonS {
+  cursor: pointer;
+  padding: 15px 25px;
+  background-color: #2b80e2;
+  color: #000000;
+  margin: 15px 25px;
+  font-size: 15px;
+  font-weight: 600;
+  transition: all ease-in-out 0.35s;
+  border-radius: 1em;
+  border: none;
+}
+
+.botonS:hover{
+  background: radial-gradient(circle, rgba(116,203,247,1) 0%, rgba(27,18,127,1) 100%);
+  color: #04080a;
+}
+
+.form{
+  margin: 25px 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  padding: 25px;
+}
+
+.label_form{
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+.input_form{
+  width: 50%;
+  border: rgb(139, 31, 167) 2px solid;
+  height: 45px;
+  padding: 5px;
+}
+
+.textarea_form{
+  min-width: 50%;
+  max-width: 90%;
+  border: rgb(139, 31, 167) 2px solid;
+  min-height: 70px;
+  max-height: 105px;
+  padding: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.boton_form{
+  margin-top: 25px;
+  max-width: fit-content;
+  padding: 15px 25px;
+  color: #000;
+  background-color: #2b80e2;
+  border-radius: 1em;
+  border: none;
+  font-weight: 500;
+  font-size: 17px;
+  cursor: pointer;
+  transition: all ease-in-out 0.35s;
+}
+
+.boton_form:hover{
+  background: radial-gradient(circle, rgba(116,203,247,1) 0%, rgba(27,18,127,1) 100%);
+  color: #040608;
+}
+
+.img__counter.active{
+  filter: grayscale(80%);
+  transition: all ease-in-out 0.35s;
+}
+
+.img__counter.inactive{
+  filter: grayscale(0%);
+  transition: all ease-in-out 0.35s;
+}
+
+.seccion__contador{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+
+.img__card.show{
+  filter: grayscale(90%);
+  transition: all ease-in-out 0.35s;
+}
+
+.img__card.none{
+  filter: grayscale(0%);
+  transition: all ease-in-out 0.35s;
+}
+
+#boton{
+  background-color: #2b99e2;
+  color: aliceblue;
+}
+
+.btnActivo{
+  filter: grayscale(80%);
+  transition: all ease-in-out 0.35s;
+}
+
+.btnDesactivo{
+  filter: grayscale(0%);
+  transition: all ease-in-out 0.35s;
+}
