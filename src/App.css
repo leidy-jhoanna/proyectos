@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+
+*{
+  font-family: 'Major Mono Display', monospace;
+}
+
+header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+
+  height: 250px;
+
+  background-image: url(./assests/img/rick_and_morty.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+
+header h1{
+  color: rgb(31, 9, 235);
+  font-size: 90px;
+  font-family: fantasy;
+}
+
+main{
+  padding: 30px 4%;
+  background: rgb(63,94,251);
+  background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);;
+  height: 100%;
+}
+
+.section__input{
+  margin: 15px 25px;
+
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.container__label{
+  display: flex;
+  align-items: center;
+}
+
+.section__input label{
+  color: #ffffff;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.section__input .img__input{
+  height: 90px;
+  width: 90px;
+  object-fit: cover;
+}
+
+.section__input .input{
+  padding: 12px;
+  margin: 5px;
+
+  color: #000000;
+  font-size: 20px;
+  font-weight: 500;
+
+  border: none;
+  border-radius: 1em;
+
+  outline: none;
+}
+
+.section__cards{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.cards{
+  background: rgb(238,174,202);
+   background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+
+  max-width: 180px;
+  min-height: 370px;
+
+  margin: 10px;
+  padding: 15px;
+
+  border: none;
+  border-radius: 1em;
+}
+
+.cards .card__img{
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+}
+
+.cards .card__title{
+  font-size: 20px;
+}
+
+.cards .info{
+  display: inline;
+}
